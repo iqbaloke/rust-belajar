@@ -9,7 +9,10 @@
 // mod array;
 // mod vector;
 // mod hash;
-mod sets;
+// mod sets;
+// mod ifelse;
+// mod matchfn;
+mod looping;
 
 fn main() {
     // println!("Hello, world!");
@@ -35,7 +38,11 @@ fn main() {
 
     // sets::sets::
     
-    sets::sets::sets();
+    // sets::sets::sets();
+    // ifelse::ifelse::ifelse();
+    
+    // matchfn::matchfn::matchfn();
+    looping::looping::looping();
 }
 
 #[test]
