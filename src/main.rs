@@ -1,5 +1,9 @@
+mod variable;
+
 fn main() {
     println!("Hello, world!");
+    variable::helper::greet("Alice");
+
 }
 
 #[test]

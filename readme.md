@@ -9,12 +9,20 @@ cargo run
 # run test function
 cargo test #all
 
-#atau 
+#atau
 cargo test name_function -- --exact  #by function
 
-#atau 
+#atau
 cargo test name_function -- --exact --nocapture #by function
 
 #release project
 cargo build --release
 ```
+
+### Variable
+
+#### Integer Types in Rust
+![Integer](./src/assets/integer.png)
+
+#### Integer Literals in Rust
+![Integer](./src/assets/integer-literal.png)
