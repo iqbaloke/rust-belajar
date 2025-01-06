@@ -1,12 +1,46 @@
-mod variable;
+
+
+// mod comparation;
+// mod datatype;
+// mod number;
+// mod tuple;
+// mod utils;
+// mod variable;
+// mod array;
+// mod vector;
+// mod hash;
+mod sets;
 
 fn main() {
-    println!("Hello, world!");
-    variable::helper::greet("Alice");
+    // println!("Hello, world!");
+    // utils::helper::greet("Alice");
 
+    // variable::variable::string();
+    // variable::variable::mutable_fun();
+    // datatype::datatype::explicit();
+
+    // number::number::number();
+    // number::number::conversion_fun();
+
+    // comparation::compatation::compatation();
+    // comparation::compatation::boolean();
+
+    // tuple::tuple::tuple();
+    // tuple::tuple::read_tuple();
+
+
+    // array::array::array();
+    // vector::vector::vector();
+    // hash::hash::hash();
+
+    // sets::sets::
+    
+    sets::sets::sets();
 }
 
 #[test]
-fn hello_test(){
+fn hello_test() {
     println!("Hello, world");
+    // let util = variable::variable::string();
+    // println!("{:?}", util);
 }
